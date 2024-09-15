@@ -12,6 +12,7 @@
 #define dfloat(f)
 #else
 
+
 // vypise ladici retezec
 #define debug(s) printf("- %s\n", s)
 
