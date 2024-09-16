@@ -403,7 +403,7 @@ int main(int argc, char *argv[])
 
     print_clusters(clusters,n);
     clear_cluster(clusters);
-    //tady je asi chyba v uvolnovani pameti
+    //mozna chyba v uvolnovani pameti
     for(int k = 0; k < cluster_input; k++){
         remove_cluster(clusters, cluster_input, k);
     }
